@@ -9,7 +9,6 @@ from sklearn import ensemble
 from sklearn import svm
 from sklearn import decomposition
 from sklearn.neighbors import NearestNeighbors
-import Attribute
 
 
 class cls:
