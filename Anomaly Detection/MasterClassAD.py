@@ -1,12 +1,10 @@
 import Split
 import numpy as np
-import AccuracyAD
 import pandas as pd
 from sklearn import model_selection, datasets
 import ClassifierAD
 import os
 from time import time
-import Attribute
 
 class Master:
 
