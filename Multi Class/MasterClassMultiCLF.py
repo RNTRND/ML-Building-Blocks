@@ -52,6 +52,10 @@ class Master:
         return self.X
     def get_y(self):
         return self.y
+    def get_y_train(self):
+        return self.y_train
+    def get_y_test(self):
+        return self.y_test
     
     def timer_start(self):
         self.start = time()
