@@ -1,7 +1,5 @@
 from sklearn import metrics
 import numpy as np
-import AccuracyREG
-import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.cluster import AffinityPropagation
 from sklearn.cluster import KMeans
