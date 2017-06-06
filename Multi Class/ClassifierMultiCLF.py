@@ -29,7 +29,7 @@ class cls:
     def RNT_SVM(self,C ,kernel, gamma,*args,**kwargs):
         svc=SVC(kernel=kernel,C=C,gamma = gamma,*args,**kwargs) 
 	   
-        svc.fit(self.x_train[0:300],self.y_train[0:300])
+        svc.fit(self.x_train[0:299],self.y_train[0:299])
         y_pred_class = svc.predict(self.x_test)
         
         AccuracyMultiCLF.accu_scores(self.y_test, y_pred_class)
