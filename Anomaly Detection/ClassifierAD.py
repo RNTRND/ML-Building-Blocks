@@ -1,6 +1,5 @@
 import Split
 import numpy as np
-import AccuracyAD
 import pandas as pd
 from sklearn import model_selection, datasets
 from sklearn.model_selection import cross_val_score
@@ -9,7 +8,6 @@ from sklearn import ensemble
 from sklearn import svm
 from sklearn import decomposition
 from sklearn.neighbors import NearestNeighbors
-import Attribute
 
 
 class cls:

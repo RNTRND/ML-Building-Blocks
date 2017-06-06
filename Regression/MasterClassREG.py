@@ -68,8 +68,9 @@ URL = http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Line
         self.reg.RNT_LinReg(*args, **kwargs)
         self.timer_stop('Linear Regression')
     
-       '''SVR(kernel='rbf', degree=3, gamma='auto', coef0=0.0, tol=0.001, C=1.0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)
-URL = http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html#sklearn.svm.SVR'''
+    '''SVR(kernel='rbf', degree=3, gamma='auto', coef0=0.0, tol=0.001, C=1.0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)'''
+    '''URL = http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html#sklearn.svm.SVR'''
+    
     def SVR(self, *args, **kwargs):
         self.timer_start()
         self.reg.RNT_SVR(*args, **kwargs)

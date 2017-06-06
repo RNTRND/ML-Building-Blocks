@@ -1,10 +1,7 @@
 import Split
 import numpy as np
-import AccuracyREG
-import matplotlib.pyplot as plt
 import pandas as pd
-from sklearn import model_selection, datasets
-import Clustering
+import ClassifierClustering
 import os
 from time import time
 
@@ -54,7 +51,7 @@ class Master:
     
     
     def clustering(self):
-        self.cluster = Clustering.cls(self.X,self.y)
+        self.cluster = ClassifierClustering.cls(self.X,self.y)
         
     '''AffinityPropagation(damping=0.5, max_iter=200, convergence_iter=15, copy=True, preference=None, affinity='euclidean', verbose=False)'''
     '''URL = http://scikit-learn.org/stable/modules/generated/sklearn.cluster.AffinityPropagation.html'''
